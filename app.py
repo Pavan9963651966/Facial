@@ -7,8 +7,8 @@ import numpy as np
 model = YOLO(r"C:\Users\pawan\Facial\model\best (2).pt")  
 
 
-st.title("Real-Time Face Detection with YOLO")
-st.text("Using the trained YOLO model to detect specific faces in real-time")
+st.title("Face Detection")
+st.text("YOLO model")
 
 
 cap = cv2.VideoCapture(0)
